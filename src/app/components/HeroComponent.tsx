@@ -1,15 +1,19 @@
 import { InnerContainer, Wrapper } from "./Hero.styled";
 import Nav from "./Nav";
 import SectionOne from "./SectionOne";
+import Banner from "./Banner";
 
 const HeroComponent = () => {
   return (
-    <Wrapper>
-      <InnerContainer>
-        <Nav />
-        <SectionOne />
-      </InnerContainer>
-    </Wrapper>
+    <>
+      <Banner />
+      <Nav />
+      <Wrapper>
+        <InnerContainer>
+          <SectionOne />
+        </InnerContainer>
+      </Wrapper>
+    </>
   );
 };
 

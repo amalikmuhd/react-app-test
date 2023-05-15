@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const SectionOneContainer = styled.div`
-  height: 100vh;
+  /* height: 70vh; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 100px;
 `;
 
 export const Title = styled.h1`
@@ -30,14 +31,17 @@ export const Title = styled.h1`
   text-fill-color: transparent;
 `;
 
+export const SubTitleContainer = styled.div`
+  height: 100px;
+  overflow: hidden;
+  margin: 20px 0;
+`;
 export const SubTitle = styled.h2`
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 95px;
   line-height: 104px;
-  /* identical to box height, or 109% */
-
   display: flex;
   align-items: center;
   letter-spacing: -1.92px;
@@ -54,8 +58,30 @@ export const SubTitle = styled.h2`
   background-clip: text;
   text-fill-color: transparent;
 `;
+export const WrapperSubTitle = styled.div`
+  height: 100%;
+  animation: move 8s ease-in-out infinite 4s;
+  animation-delay: 4s;
+  transition: all 2s ease-in-out;
+
+  @keyframes move {
+    25% {
+      transform: translateY(-100px);
+    }
+    50% {
+      transform: translateY(-200px);
+    }
+    75% {
+      transform: translateY(-320px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+`;
+
 export const Description = styled.p`
-  font-family: "SF Pro Text";
+  /* font-family: "SF Pro Text"; */
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -76,7 +102,8 @@ export const Description = styled.p`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+
+  /* text-fill-color: transparent; */
 `;
 
 export const GetStarted = styled.div`
@@ -99,6 +126,7 @@ export const EarnContainer = styled.div`
   margin-top: 20px;
   display: flex;
   gap: 8px;
+  margin-bottom: 50px;
 `;
 export const EarnContainerTitle = styled.div`
   font-family: "SF Pro Text";
@@ -106,7 +134,6 @@ export const EarnContainerTitle = styled.div`
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
 
   display: flex;
   align-items: center;

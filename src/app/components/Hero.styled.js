@@ -9,6 +9,6 @@ export const Wrapper = styled.div`
 `;
 
 export const InnerContainer = styled.div`
-  width: 80%;
+  width: 60%;
   color: white;
 `;
