@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
 export const SectionOneContainer = styled.div`
-  /* height: 70vh; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 100px;
+  position: relative;
 `;
 
 export const Title = styled.h1`
@@ -82,16 +80,14 @@ export const WrapperSubTitle = styled.div`
 
 export const Description = styled.p`
   /* font-family: "SF Pro Text"; */
+  margin-top: 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  /* or 178% */
-
   display: flex;
   align-items: center;
   letter-spacing: -0.36px;
-
   background: linear-gradient(
     90deg,
     #ffffff 0%,
@@ -102,8 +98,11 @@ export const Description = styled.p`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  width: 60%;
 
-  /* text-fill-color: transparent; */
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 export const GetStarted = styled.div`

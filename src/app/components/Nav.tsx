@@ -13,28 +13,26 @@ import Image from "next/image";
 
 const Nav = () => {
   return (
-    <>
-      <NavContainer>
-        <InnerContainer>
-          <LogoContainer>
-            <Image src={Logo} alt="logo" />
-            <Image src={text} alt="logo" />
-          </LogoContainer>
+    <NavContainer>
+      <InnerContainer>
+        <LogoContainer>
+          <Image src={Logo} alt="logo" />
+          <Image src={text} alt="logo" />
+        </LogoContainer>
 
-          <MiddleContainer>
-            <Item>Use Cases</Item>
-            <Item>Products</Item>
-            <Item>Company</Item>
-            <Item>Support</Item>
-          </MiddleContainer>
+        <MiddleContainer>
+          <Item>Use Cases</Item>
+          <Item>Products</Item>
+          <Item>Company</Item>
+          <Item>Support</Item>
+        </MiddleContainer>
 
-          <RightContainer>
-            <button>Log in</button>
-            <SignUpButtonStyle>Sign up</SignUpButtonStyle>
-          </RightContainer>
-        </InnerContainer>
-      </NavContainer>
-    </>
+        <RightContainer>
+          <button>Log in</button>
+          <SignUpButtonStyle>Sign up</SignUpButtonStyle>
+        </RightContainer>
+      </InnerContainer>
+    </NavContainer>
   );
 };
 

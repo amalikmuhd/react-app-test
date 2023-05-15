@@ -6,6 +6,8 @@ export const Wrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  background: url(hero-background.png),
+    linear-gradient(90deg, #060a23 0%, #07041e 25%, #07041e 75%, #060a23 100%);
 `;
 
 export const InnerContainer = styled.div`

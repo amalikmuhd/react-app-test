@@ -1,22 +1,22 @@
+import Image from "next/image";
+import techCrunch from "../assets/TechCrunch.svg";
+import forbes from "../assets/Forbes.svg";
+import entreprenuer from "../assets/Entrepreneur.svg";
+import techTimes from "../assets/TechCrunch.png";
+import wallStreets from "../assets/TheWallStreet.svg";
+import { FooterContainer, FooterInnerContainer } from "./Footer.styled";
+
 const Footer = () => {
   return (
-    <div>
-      <div>
-        <p>logo</p>
-      </div>
-      <div>
-        <ul>
-          <li>Use Cases </li>
-          <li>Products</li>
-          <li>Company</li>
-          <li>Support</li>
-        </ul>
-      </div>
-      <div>
-        <button>Log in</button>
-        <button>Sign up</button>
-      </div>
-    </div>
+    <FooterContainer>
+      <FooterInnerContainer>
+        <Image src={techCrunch} alt="phones" style={{ width: "150px" }} />
+        <Image src={forbes} alt="phones" style={{ width: "150px" }} />
+        <Image src={entreprenuer} alt="phones" style={{ width: "150px" }} />
+        <Image src={techTimes} alt="phones" style={{ width: "150px" }} />
+        <Image src={wallStreets} alt="phones" style={{ width: "150px" }} />
+      </FooterInnerContainer>
+    </FooterContainer>
   );
 };
 

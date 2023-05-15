@@ -3,9 +3,17 @@ import styled from "styled-components";
 export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
   padding: 0 10px;
   border-bottom: 1px solid #08011a;
+  background: url(hero-background.png),
+    linear-gradient(90deg, #060a23 0%, #07041e 25%, #07041e 75%, #060a23 100%);
+
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 10; /* Position the navbar at the top of the page */
+  width: 100%;
+  height: 50px;
+  z-index: 10;
 `;
 
 export const InnerContainer = styled.div`
@@ -45,6 +53,7 @@ export const RightContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 `;
 
 export const SignUpButtonStyle = styled.button`

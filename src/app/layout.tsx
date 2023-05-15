@@ -2,8 +2,9 @@ import "./globals.css";
 import { Inter, Rubik } from "next/font/google";
 // SF Pro Text
 const inter = Inter({ subsets: ["latin"] });
+const rubik = Inter({ subsets: ["latin"] });
 
-import localFont from "@next/font/local";
+// import localFont from "@next/font/local";
 
 // const poppins = localFont({
 //   src: [
@@ -31,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={(inter.className, rubik.className)}>{children}</body>
     </html>
   );
 }
