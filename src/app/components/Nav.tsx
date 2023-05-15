@@ -7,12 +7,13 @@ import {
   SignUpButtonStyle,
 } from "./Nav.styled";
 import Logo from "../assets/logo.svg";
+import Image from "next/image";
 
 const Nav = () => {
   return (
     <NavContainer>
       <LogoContainer>
-        <img src={Logo} alt="logo" />
+        <Image src={Logo} alt="logo" />
       </LogoContainer>
 
       <MiddleContainer>

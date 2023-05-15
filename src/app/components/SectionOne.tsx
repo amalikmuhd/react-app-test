@@ -9,7 +9,6 @@ import {
 } from "./SectionOne.styled";
 import arrow from "../assets/arrow.svg";
 import logo2 from "../assets/logo2.svg";
-import TextLoop from "react-text-loop";
 
 import Image from "next/image";
 const SectionOne = () => {
