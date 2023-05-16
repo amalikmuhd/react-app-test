@@ -1,8 +1,8 @@
 import "./globals.css";
-import { Inter, Rubik } from "next/font/google";
+import {Inter} from "next/font/google";
 // SF Pro Text
-const inter = Inter({ subsets: ["latin"] });
-const rubik = Inter({ subsets: ["latin"] });
+const inter = Inter({subsets: ["latin"]});
+const rubik = Inter({subsets: ["latin"]});
 
 // import localFont from "@next/font/local";
 
@@ -25,11 +25,7 @@ export const metadata = {
   description: "Zero Fees, No Credit Check",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <body className={(inter.className, rubik.className)}>{children}</body>
