@@ -149,3 +149,14 @@ export const EarnContainerTitle = styled.div`
   background-clip: text;
   text-fill-color: transparent;
 `;
+
+export const StackContainer = styled.div`
+  width: 100%;
+  position: relative;
+`;
+export const DashboardContainer = styled.image`
+  width: 100%;
+  z-index: 4;
+  position: absolute;
+  top: 0;
+`;

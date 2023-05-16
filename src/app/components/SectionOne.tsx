@@ -4,6 +4,7 @@ import {
   EarnContainerTitle,
   GetStarted,
   SectionOneContainer,
+  StackContainer,
   SubTitle,
   SubTitleContainer,
   Title,
@@ -44,37 +45,25 @@ const SectionOne = () => {
       </EarnContainer>
       {/* start */}
 
-      <div
-        style={{ width: "100%", position: "relative", border: "1px solid red" }}
-      >
+      <StackContainer>
         <Image
           src={dashboard}
           alt="dashboard"
-          style={{
-            width: "100%",
-            zIndex: 4,
-            position: "absolute",
-            top: 0,
-          }}
+          // style={{
+          //   width: "100%",
+          //   zIndex: 4,
+          //   position: "absolute",
+          //   top: 0,
+          // }}
+          className="w-full absolute top-0 z-40"
         />
         <Image
           src={card}
           alt="card"
-          style={{ position: "absolute", top: "-170px", left: "50%" }}
+          className="top-170px absolute left-50%"
+          // style={{ position: "absolute", top: "-170px", left: "50%" }}
         />
-      </div>
-
-      {/* <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "flex-end",
-          zIndex: 9999,
-          top: "-50%",
-        }}
-      >
-        <Image src={card} alt="card" />
-      </div> */}
+      </StackContainer>
     </SectionOneContainer>
   );
 };
