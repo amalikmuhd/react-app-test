@@ -8,7 +8,8 @@
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:react/recommended",
-    "eslint-config-prettier"
+    "eslint-config-prettier",
+    "prettier"
   ],
   "plugins": ["react-hooks"],
   "rules": {
@@ -18,17 +19,10 @@
     "react/jsx-uses-vars": "error", // Checks unused variables
     "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
-    "react/prop-types": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ]
+    "react/prop-types": "off"
   },
   "env": {
     "browser": true,
-    "node": true,
     "es2021": true
   },
 
