@@ -29,7 +29,7 @@ export const LogoContainer = styled.div`
   gap: 8px;
 `;
 export const MiddleContainer = styled.div`
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +49,7 @@ export const Item = styled.p`
 `;
 
 export const RightContainer = styled.div`
-  width: 15%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;

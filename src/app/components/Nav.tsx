@@ -6,7 +6,7 @@ import {
   Item,
   SignUpButtonStyle,
   InnerContainer,
-} from "./Nav.styled";
+} from "../styles/Nav.styled";
 import Logo from "../assets/logothree.svg";
 import text from "../assets/logo.svg";
 import Image from "next/image";

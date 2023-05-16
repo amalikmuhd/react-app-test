@@ -1,23 +1,21 @@
-import {InnerContainer, Wrapper} from "./Hero.styled";
-import Nav from "./Nav";
+import {InnerContainer, Wrapper} from "../styles/Hero.styled";
 import SectionOne from "./SectionOne";
-import Banner from "./Banner";
 import SectionTwo from "./SectionTwo";
-import Footer from "./Footer";
+import Layout from "./Layout";
+import {Fragment} from "react";
 
 const HeroComponent = () => {
   return (
-    <>
-      <Banner />
-      <Nav />
-      <Wrapper>
-        <InnerContainer>
-          <SectionOne />
-        </InnerContainer>
-      </Wrapper>
-      <SectionTwo />
-      <Footer />
-    </>
+    <Layout>
+      <Fragment>
+        <Wrapper>
+          <InnerContainer>
+            <SectionOne />
+          </InnerContainer>
+        </Wrapper>
+        <SectionTwo />
+      </Fragment>
+    </Layout>
   );
 };
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import arrow from "../assets/arrow.svg";
-import {BannerContainer, Title} from "./Banner.styled";
+import {BannerContainer, Title} from "../styles/Banner.styled";
 const Banner = () => {
   return (
     <BannerContainer>

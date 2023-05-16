@@ -2,7 +2,7 @@ import {
   Container,
   SectionTwoContainer,
   TitleSectionTwo,
-} from "./SectionTwo.styled";
+} from "../styles/SectionTwo.styled";
 import phones from "../assets/phones.svg";
 import Image from "next/image";
 const SectionTwo = () => {

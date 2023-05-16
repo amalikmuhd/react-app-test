@@ -9,7 +9,7 @@ import {
   SubTitleContainer,
   Title,
   WrapperSubTitle,
-} from "./SectionOne.styled";
+} from "../styles/SectionOne.styled";
 import arrow from "../assets/arrow.svg";
 import logo2 from "../assets/logo2.svg";
 import dashboard from "../assets/dashboard.svg";

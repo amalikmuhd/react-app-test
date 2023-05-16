@@ -4,7 +4,7 @@ import forbes from "../assets/Forbes.svg";
 import entreprenuer from "../assets/Entrepreneur.svg";
 import techTimes from "../assets/TechCrunch.png";
 import wallStreets from "../assets/TheWallStreet.svg";
-import {FooterContainer, FooterInnerContainer} from "./Footer.styled";
+import {FooterContainer, FooterInnerContainer} from "../styles/Footer.styled";
 
 const Footer = () => {
   return (
