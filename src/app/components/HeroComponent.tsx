@@ -1,4 +1,4 @@
-import { InnerContainer, Wrapper } from "./Hero.styled";
+import {InnerContainer, Wrapper} from "./Hero.styled";
 import Nav from "./Nav";
 import SectionOne from "./SectionOne";
 import Banner from "./Banner";

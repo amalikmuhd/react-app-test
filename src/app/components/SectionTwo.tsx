@@ -9,7 +9,7 @@ const SectionTwo = () => {
   return (
     <SectionTwoContainer>
       <Container>
-        <Image src={phones} alt="phones" style={{ position: "absolute" }} />
+        <Image src={phones} alt="phones" style={{position: "absolute"}} />
         <TitleSectionTwo>See How</TitleSectionTwo>
       </Container>
     </SectionTwoContainer>
