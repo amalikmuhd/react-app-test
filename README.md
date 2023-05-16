@@ -1,7 +1,7 @@
-Features:
-Static Testing
-Commit Lint
-Loading 
+# Features:
+- Static Testing
+- Commit Lint
+- Loading 
 
 ## live demo: https://react-app-test-nu.vercel.app/
 <img width="1680" alt="Screenshot 2023-05-17 at 00 18 35 (2)" src="https://github.com/codewithmalik/react-app-test/assets/4702828/1bca2794-e4ff-440b-829d-8b71208ac306">
