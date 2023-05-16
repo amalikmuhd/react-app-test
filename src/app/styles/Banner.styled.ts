@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import banner from "../assets/banner.png";
+
 export const BannerContainer = styled.div`
-  /* background: url(${banner}); */
   background: rgba(105, 54, 245, 1);
   display: flex;
   justify-content: center;

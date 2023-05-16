@@ -7,7 +7,7 @@ export const SectionTwoContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  z-index: 8;
+  z-index: 80;
   position: relative;
 `;
 

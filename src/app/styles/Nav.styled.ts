@@ -9,11 +9,11 @@ export const NavContainer = styled.div`
     linear-gradient(90deg, #060a23 0%, #07041e 25%, #07041e 75%, #060a23 100%);
 
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 10; /* Position the navbar at the top of the page */
+  position: fixed;
+  top: 10;
   width: 100%;
   height: 50px;
-  z-index: 10;
+  z-index: 100;
 `;
 
 export const InnerContainer = styled.div`
