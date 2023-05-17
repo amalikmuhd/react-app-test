@@ -1,6 +1,6 @@
 "use client";
 import {useEffect, useState} from "react";
-import LandingPage from "../app/screens/LandingPage";
+import LandingPage from "./screens/LandingPage";
 import Loading from "./components/Loading";
 
 export default function Home() {

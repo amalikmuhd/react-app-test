@@ -10,7 +10,7 @@ export const BannerContainer = styled.div`
   width: 100%;
 `;
 
-export const Title = styled.div`
+export const Title = styled.h1`
   /* font-family: "SF Pro Text"; */
   font-style: normal;
   font-weight: 400;
