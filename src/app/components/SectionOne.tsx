@@ -49,19 +49,17 @@ const SectionOne = () => {
         <Image
           src={dashboard}
           alt="dashboard"
-          // style={{
-          //   width: "100%",
-          //   zIndex: 4,
-          //   position: "absolute",
-          //   top: 0,
-          // }}
-          className="w-full absolute top-0 z-40"
+          style={{
+            width: "100%",
+            zIndex: 4,
+            position: "absolute",
+            top: 0,
+          }}
         />
         <Image
           src={card}
           alt="card"
-          className="top-170px absolute left-50%"
-          // style={{ position: "absolute", top: "-170px", left: "50%" }}
+          style={{position: "absolute", top: "-170px", left: "50%"}}
         />
       </StackContainer>
     </SectionOneContainer>
