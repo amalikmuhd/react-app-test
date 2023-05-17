@@ -1,4 +1,5 @@
 # Features:
+- Unit Testing With Jest And React Testing Library
 - Static Testing
 - Commit Lint
 - Loading 
