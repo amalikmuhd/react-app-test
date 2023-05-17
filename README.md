@@ -3,7 +3,7 @@
 - Commit Lint
 - Loading 
 
-## [Click to see live demo](https://react-app-test-1wvn3xv1i-codewithmalik.vercel.app/)
+## [Click to see live demo](https://react-app-test-davrhazti-codewithmalik.vercel.app/)
 
 This is the demo video of the website
 
